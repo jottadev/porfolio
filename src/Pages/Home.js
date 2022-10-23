@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet } from 'react-helmet'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { AiOutlineFilePdf } from "react-icons/ai";
@@ -7,13 +8,20 @@ import cv from '../Assets/cv.pdf'
 import dev from '../Assets/programming.svg'
 import '../Styles/styleHome.css'
 
+const TITLE = 'Portfolio Dev - Home'
+
 export default function Home(){
     return(
-        <main>
+        <main role='main'>
+            
+            <Helmet>
+                <title>{TITLE}</title>
+            </Helmet>
+
             <section>
                 <div>
                     <h1> Hey, I'm João. </h1>
-                    <p> 
+                    <p role='text'> 
                         Desenvolvedor Front-end & Desinger gráfico.
                     </p>
                 </div>
@@ -25,7 +33,7 @@ export default function Home(){
                 </div>
             </section>
 
-            <figure>
+            <figure role="figure">
                 <img src={dev} alt='Programção'/>
             </figure>
 

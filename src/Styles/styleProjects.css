@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
     box-sizing: border-box;
 }
 
@@ -72,4 +72,19 @@
     transition: .3s ease-in-out;
     background: #e9ecef;
     color: #212529;
+}
+
+@media screen and (max-width: 999px){
+
+    body, html, .App{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    .main-p{
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 100vh;
+
+    }
 }
