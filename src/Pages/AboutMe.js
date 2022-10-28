@@ -36,7 +36,7 @@ export default function AboutMe(){
             </section>
 
             <figure className='figure-a'>
-                <img src={Photo} alt='Photo profile - Imagem'/>
+                <img src={Photo} alt="Me"/>
             </figure>
         </main>
     )
