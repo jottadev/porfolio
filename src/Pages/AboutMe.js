@@ -10,16 +10,16 @@ import '../Styles/styleAboutMe.css'
 
 export default function AboutMe(){
     return(
-        <main className='main-a' role='main'>
+        <main className='main-a'>
             <section className='section-a'>
                 <div>
-                    <p role='text'>
+                    <p >
                         Vamos lá... me chamo João, tenho 20 anos, moro no interior 
                         do estado do Maranhão. Tive meu primeiro contato com a programação aos 18 anos
                         e foi amor a primeira vista, e desde então a paixão só aumenta. Sou muito grato por todos os 
                         ensinamentos que e o mundo da tecnologia vem me proporcionando ao longo desses anos de estudos.
                     </p>
-                    <p role='text'>
+                    <p >
                         Estou em busca da minha primeira oportunidade como Desenvolvedor front-end,
                         utilizando as tecnologias Javascript e React. Porém, estou sempre aberto a aprender novas 
                         tecnologias.
@@ -35,7 +35,7 @@ export default function AboutMe(){
                 </div>
             </section>
 
-            <figure className='figure-a' role="figure">
+            <figure className='figure-a'>
                 <img src={Photo} alt='Photo profile - Imagem'/>
             </figure>
         </main>

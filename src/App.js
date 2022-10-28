@@ -21,10 +21,10 @@ function App() {
         <title>{TITLE}</title>
       </Helmet>
 
-      <header role='heading'>
-        <h2> Portfolio Dev </h2>
+      <header>
+        <h2 translate='no'> Portfolio Dev </h2>
         <nav role='navigation' >
-          <Link className='link' to='/'> Home </Link>
+          <Link className='link' to='/' translate='no'> Home </Link>
           <Link className='link' to='/AboutMe'> Sobre mim </Link>
           <Link className='link' to='/Projetos'> Projetos </Link>
           <Link className='link' to='/Contato'> Contato </Link>

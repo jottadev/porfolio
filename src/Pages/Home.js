@@ -12,7 +12,7 @@ const TITLE = 'Portfolio Dev - Home'
 
 export default function Home(){
     return(
-        <main role='main'>
+        <main>
             
             <Helmet>
                 <title>{TITLE}</title>
@@ -20,8 +20,8 @@ export default function Home(){
 
             <section>
                 <div>
-                    <h1> Hey, I'm João. </h1>
-                    <p role='text'> 
+                    <h1 translate='no'> Hey, I'm João. </h1>
+                    <p> 
                         Desenvolvedor Front-end & Desinger gráfico.
                     </p>
                 </div>
@@ -33,7 +33,7 @@ export default function Home(){
                 </div>
             </section>
 
-            <figure role="figure">
+            <figure>
                 <img src={dev} alt='Programção'/>
             </figure>
 

@@ -11,7 +11,7 @@ const TITLE = 'Portfolio Dev - Contato'
 
 export default function Contact(){
     return(
-        <main role='main'>
+        <main >
 
             <Helmet>
                 <title>{TITLE}</title>
@@ -22,8 +22,8 @@ export default function Contact(){
                     <input type='text' name='text' id='ip-text' required placeholder='Digite seu nome aqui.'  autoComplete='none' autoFocus/>
                     <input type='email' name='email' id='ip-email' placeholder='Digite seu email aqui.' required  autoComplete='none'/>
                     <textarea name='textarea' id='ip-area' placeholder='Digite seu mensagem aqui' required  autoComplete='none'></textarea>
-                    <button type='reset' role='button'> Limpar </button>
-                    <button type='submit' role='button'> Enviar </button>
+                    <button type='reset' > Limpar </button>
+                    <button type='submit' > Enviar </button>
                </form>
             </section>
             <section>

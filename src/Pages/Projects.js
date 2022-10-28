@@ -11,7 +11,7 @@ const TITLE = 'Portfolio Dev - Projetos'
 export default function Project(){
     return(
 
-        <main className='main-p' role='main'>
+        <main className='main-p'>
             
             <Helmet>
                 <title>{TITLE}</title>
@@ -19,12 +19,12 @@ export default function Project(){
 
 
             <section className='section-p' id='section-p'>
-                <figure role="figure">
+                <figure>
                     <img src={recipes} alt="Projeto Recipes - Pagina da web." />
                 </figure>
 
                 <div className='div-p'>
-                    <p role='text'>
+                    <p>
                         Projeto foi desenvolvido pela Vai na Web para seus alunos praticarem seus 
                         conhecimentos em React Hooks, Github e aprimorar o trabalho em equipe.
                     </p>
@@ -36,12 +36,12 @@ export default function Project(){
             </section>
 
             <section className='section-p'>
-                <figure role="figure">
+                <figure>
                     <img src={cacl} alt="Projeto Calculadora - Calculadora web." />
                 </figure>
 
                 <div className='div-p'>
-                    <p role='text'>
+                    <p >
                         Primeiro projeto desenvolvido utilizando Javascript, usando principalmente a função eval.
                         Calculadora de aparência simples, porém eficiente.
                     </p>
@@ -55,12 +55,12 @@ export default function Project(){
 
             <section className='section-p'>
 
-                <figure role="figure">
+                <figure>
                     <img src={bomsono} alt="Projeto Bom Sono - Pagina da web." />
                 </figure>
 
                 <div className='div-p'>
-                    <p role='text'>
+                    <p>
                         Projeto desenvolvido para aprimorar / reaquecer meus conhecimentos em HTML e CSS Responsivo.
                         Desafio disponivel no site do Dev Challenge.
                     </p>
@@ -74,11 +74,11 @@ export default function Project(){
 
             <section className='section-p'>
 
-                <figure role="figure">
+                <figure>
                     <img src={codar} alt="Projeto Codar - Pagina da web." />
                 </figure>
                 <div className='div-p'>
-                    <p role='text'>
+                    <p>
                         Projeto desenvolvido com HTML e CSS Responsivo. O desafio disponivel no site do Dev Challenge.
                     </p>
                     <div className='div-link-p'>
