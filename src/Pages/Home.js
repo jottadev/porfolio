@@ -12,7 +12,7 @@ const TITLE = 'Portfolio Dev - Home'
 
 export default function Home(){
     return(
-        <main>
+        <main className='main-h'>
             
             <Helmet>
                 <title>{TITLE}</title>

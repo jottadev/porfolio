@@ -79,17 +79,19 @@ img{
         height: 370px;
     }
 
-    main {  
-        align-items: flex-start;
+    .main-h{
+        padding: 2rem 0 0 0 ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 85vh;
     }
-    
 }
+    
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 699px){
     img{
         width: 70vw;
     }
-
-
 }

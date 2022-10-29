@@ -11,7 +11,7 @@ const TITLE = 'Portfolio Dev - Contato'
 
 export default function Contact(){
     return(
-        <main >
+        <main className='main-c' >
 
             <Helmet>
                 <title>{TITLE}</title>

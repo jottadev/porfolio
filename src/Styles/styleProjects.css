@@ -80,11 +80,15 @@
         overflow-y: hidden;
         overflow-x: hidden;
     }
-    
+
+    .section-p{
+        height: 450px;
+    }
+  
     .main-p{
+        padding: 2rem 0 0 0 ;
         justify-content: flex-start;
         flex-direction: column;
         height: 100vh;
-
     }
 }

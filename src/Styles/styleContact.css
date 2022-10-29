@@ -8,6 +8,10 @@
     font-family: 'Roboto', Arial;
 }
 
+.main-c{
+    height: 85vh;
+}
+
 .form-c{
     width: 500px;
     height: 400px;
@@ -48,4 +52,16 @@ textarea{
     border-radius: 5px;
     cursor: pointer;
     resize: none;
+}
+
+
+@media screen and (max-width: 999px){
+
+    .main-c{
+        padding: 2rem 0 0 0 ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 85vh;
+    }
 }
