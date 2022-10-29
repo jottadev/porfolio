@@ -9,6 +9,8 @@ import AboutMe from './Pages/AboutMe'
 import './Styles/styleHeader.css'
 import { AiOutlineMenu } from 'react-icons/ai'
 import MenuMobile from './Components/MenuMobile/MenuMobile'
+import { GlobalStyle } from "./GlobalStyle/GlobalStyle"
+
 
 const TITLE = 'Portfolio Dev'
 
@@ -19,7 +21,9 @@ function App() {
   return (
     
 
-    <Router>
+    <Router>  
+
+      <GlobalStyle />
 
       <Helmet>
         <title>{TITLE}</title>

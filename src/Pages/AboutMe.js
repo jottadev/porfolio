@@ -6,12 +6,12 @@ import { DiJavascript } from 'react-icons/di'
 import { DiReact } from 'react-icons/di'
 import { SiStyledcomponents } from 'react-icons/si'
 import { AiFillGithub } from "react-icons/ai";
-import '../Styles/styleAboutMe.css'
+import * as S from '../Styles/styleAboutMe'
 
 export default function AboutMe(){
     return(
-        <main className='main-a'>
-            <section className='section-a'>
+        <S.MainA>
+            <S.SectionA>
                 <div>
                     <p >
                         Vamos lá... me chamo João, tenho 20 anos, moro no interior 
@@ -25,19 +25,19 @@ export default function AboutMe(){
                         tecnologias.
                     </p>
                 </div>
-                <div className='techs'>
-                    < AiFillHtml5  size={50} color={'#ff5733'} className='tech'/>
-                    < DiCss3 size={50} color={'#0000ff'}  className='tech'/>
-                    < DiJavascript size={50} color={'#ffa500'} className='tech'/>
-                    < DiReact size={50} color={'#4ae5ff'} className='tech'/>
-                    < SiStyledcomponents size={50} color={'#ee82ee'} className='tech'/>
-                    < AiFillGithub size={50} color={'#6a5acd'} className='tech'/>
-                </div>
-            </section>
+                <S.Techs>
+                    < AiFillHtml5  size={50} color={'#ff5733'}/>
+                    < DiCss3 size={50} color={'#0000ff'}/>
+                    < DiJavascript size={50} color={'#ffa500'}/>
+                    < DiReact size={50} color={'#4ae5ff'}/>
+                    < SiStyledcomponents size={50} color={'#ee82ee'}/>
+                    < AiFillGithub size={50} color={'#6a5acd'}/>
+                </S.Techs>
+            </S.SectionA>
 
-            <figure className='figure-a'>
+            <S.FigureA className='figure-a'>
                 <img src={Photo} alt="Me"/>
-            </figure>
-        </main>
+            </S.FigureA >
+        </S.MainA>
     )
 }

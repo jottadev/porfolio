@@ -6,14 +6,13 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import cv from '../Assets/cv.pdf'
 import dev from '../Assets/programming.svg'
-import '../Styles/styleHome.css'
+import * as S from '../Styles/styleHome'
 
 const TITLE = 'Portfolio Dev - Home'
 
 export default function Home(){
     return(
-        <main className='main-h'>
-            
+        <S.MainH>   
             <Helmet>
                 <title>{TITLE}</title>
             </Helmet>
@@ -25,18 +24,18 @@ export default function Home(){
                         Desenvolvedor Front-end & Desinger gráfico.
                     </p>
                 </div>
-                <div className='links'>
-                    <a href={cv} download="curriculo-joao" > <AiOutlineFilePdf className='icon'/> </a>
-                    <a href='https://www.linkedin.com/in/joaoythalo/'  rel="noopener noreferrer" target='_blank'> <AiOutlineLinkedin className='icon'/> </a>
-                    <a href='https://github.com/jottadev' rel="noopener noreferrer" target='_blank'> <AiFillGithub className='icon'/> </a>
-                    <a href='https://www.instagram.com/juaoythalo/' rel="noopener noreferrer" target='_blank'> <AiOutlineInstagram className='icon'/> </a>
-                </div>
+                <S.Links>
+                    <a href={cv} download="curriculo-joao" > <AiOutlineFilePdf/> </a>
+                    <a href='https://www.linkedin.com/in/joaoythalo/'  rel="noopener noreferrer" target='_blank'> <AiOutlineLinkedin/> </a>
+                    <a href='https://github.com/jottadev' rel="noopener noreferrer" target='_blank'> <AiFillGithub /> </a>
+                    <a href='https://www.instagram.com/juaoythalo/' rel="noopener noreferrer" target='_blank'> <AiOutlineInstagram /> </a>
+                </S.Links>
             </section>
 
-            <figure>
+            <S.FigureH>
                 <img src={dev} alt='Programção'/>
-            </figure>
+            </S.FigureH>
 
-        </main>
+        </S.MainH>
     )
 }
