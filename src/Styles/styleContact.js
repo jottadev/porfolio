@@ -10,6 +10,11 @@ export const Main = styled.main`
     align-items: center;
     justify-content: center;
     gap: 1rem;
+
+    @media screen and (max-width: 999px) {
+        flex-direction: column;
+        gap: 3rem;
+    }
 `
 export const Form = styled.form`
     width: 500px;
@@ -27,6 +32,10 @@ export const Form = styled.form`
         border: 0;
         border-radius: 5px;
         padding: 5px;
+
+        @media screen and (max-width: 999px) {
+            width: 60vw;
+        }
     }
 
     button{
@@ -40,6 +49,10 @@ export const Form = styled.form`
         color: #e9ecef;
         font-weight: 500;
         font-size: 1rem;
+
+        @media screen and (max-width: 999px) {
+            width: 60vw;
+        }
 
         :hover{
             transition: .3s ease-in-out;
@@ -56,6 +69,11 @@ export const Form = styled.form`
         border-radius: 5px;
         cursor: pointer;
         resize: none;
+
+        
+        @media screen and (max-width: 999px) {
+            width: 60vw;
+        }
     }
 
 `

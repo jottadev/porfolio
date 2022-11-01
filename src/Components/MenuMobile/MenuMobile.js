@@ -7,7 +7,7 @@ export default function MenuMobile({ menuIsVisible, setMenuIsVisible}){
     return(
         <>
             <S.DivMenu isVisible={menuIsVisible}>
-                <AiOutlineClose size={25} onClick={() => setMenuIsVisible(false)}/>
+                <AiOutlineClose size={30} onClick={() => setMenuIsVisible(false)}/>
                 <S.NavMenu role='navigation' className='nav-menu'>
                     <Link className='link' to='/' translate='no'> Home </Link>
                     <Link className='link' to='/AboutMe'> Sobre mim </Link>

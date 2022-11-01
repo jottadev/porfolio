@@ -10,6 +10,13 @@ export const Main = styled.main`
     justify-content: center;
     gap: 10px;
 
+    @media screen and (max-width: 999px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        padding: 2rem 0 2rem 0;
+    }
+
 
     section{
         max-width: 300px;
@@ -23,6 +30,13 @@ export const Main = styled.main`
         border: #e9ecef 1px solid;
     }
 
+    @media screen and (max-width: 999px) {
+        max-width: 70vw;
+        width: 70vw;
+    }
+
+
+
     figure{
 
 
@@ -30,8 +44,15 @@ export const Main = styled.main`
             width: 298px;
             height: 200px;
             border-radius: 5px;
+
+            @media screen and (max-width: 999px) {
+                width: 70vw;
+                height: 300px;
+                object-fit: cover;
+            }
         }
-    }
+
+
     }
 
 `
@@ -45,6 +66,11 @@ export const Divp = styled.div`
     align-items: center;
     text-align: center;
 
+    @media screen and (max-width: 999px) {
+        height: 195px;
+    }
+    
+
     p{
         text-align: justify;
         padding: 6px;
@@ -57,7 +83,6 @@ export const Divp = styled.div`
         flex-direction: row;
         gap: 10px;
         align-items: center;
-
         a{
             cursor: pointer;
             color: #e9ecef;
@@ -75,8 +100,6 @@ export const Divp = styled.div`
                 color: #212529;
             }
         }
-
-
 
     }
 `

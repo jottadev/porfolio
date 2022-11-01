@@ -65,4 +65,9 @@ nav{
     .menu-icon{
         display: initial;
     }
+
+    header{
+        justify-content: space-between;
+        padding: 0 2rem 0 2rem;
+    }
 }

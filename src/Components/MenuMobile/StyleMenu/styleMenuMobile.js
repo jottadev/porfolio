@@ -5,7 +5,7 @@ export const DivMenu = styled.div`
     position: absolute;
 
     width: 100%;
-    height: 100%;
+    height: 50%;
     left: 0;
     top: 0;
     bottom: 0;
@@ -15,9 +15,10 @@ export const DivMenu = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(3px);
-    background: rgb(0,0,0);
-    background: linear-gradient(34deg, rgba(0,0,0,0.5861695019804797) 0%, rgba(72,149,239,1) 70%);  
+    backdrop-filter: blur(10px);
+    background: rgb(14,15,17);
+    background: linear-gradient(180deg, rgba(14,15,17,1) 0%, rgba(255,255,255,0) 100%);
+    opacity: .5;
     transition: .3s ease-in-out;
 
 
@@ -36,8 +37,8 @@ export const DivMenu = styled.div`
 
     svg{
         position: absolute;
-        top: 1.5rem;
-        right: 1.5rem;
+        top: 4.5rem;
+        right: 2rem;
         color: #fff;
         cursor: pointer;
         transform: rotate(45deg)

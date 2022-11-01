@@ -11,6 +11,12 @@ export const MainA = styled.main`
     align-items: center;
     justify-content: center;
     gap: 1rem;
+
+    @media screen and (max-width: 999px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
 `
 
 export const SectionA = styled.section`
@@ -20,6 +26,10 @@ export const SectionA = styled.section`
         text-align: justify;
         color: #adb5bd;
         margin-bottom: 1rem;
+
+        @media screen and (max-width: 999px) {
+            width: 75vw;
+        }
     }
 
 
