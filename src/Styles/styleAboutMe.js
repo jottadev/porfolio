@@ -15,6 +15,7 @@ export const MainA = styled.main`
     @media screen and (max-width: 999px) {
         flex-direction: column;
         flex-wrap: nowrap;
+        height: 100%;
     }
 
 `
