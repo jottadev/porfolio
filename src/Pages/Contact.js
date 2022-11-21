@@ -19,8 +19,8 @@ export default function Contact(){
 
             <section >
                <S.Form action='https://formsubmit.co/contato.joaoythalo@gmail.com' method="POST" target="_blank" rel="noopener noreferrer">
-                    <input type='text' name='text' id='ip-text' required placeholder='Digite seu nome aqui.'  autoComplete='none'/>
-                    <input type='email' name='email' id='ip-email' placeholder='Digite seu email aqui.' required  autoComplete='none'/>
+                    <input type='text' name='text' id='ip-text' required placeholder='Nome'  autoComplete='none'/>
+                    <input type='email' name='email' id='ip-email' placeholder='Email' required  autoComplete='none'/>
                     <textarea name='textarea' id='ip-area' placeholder='Digite seu mensagem aqui' required  autoComplete='none'></textarea>
                     <button type='reset' > Limpar </button>
                     <button type='submit' > Enviar </button>

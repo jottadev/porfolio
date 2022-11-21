@@ -12,6 +12,12 @@ export const MainH = styled.main`
     align-items: center;
     justify-content: center;
 
+    @media screen and (max-width: 999px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 85vh;
+        padding: 2rem 0 2rem 0;
+    }
 
     section{
         max-width: 500px;
@@ -23,6 +29,18 @@ export const MainH = styled.main`
         align-items: center;
         justify-content: center;
         gap: 1rem;
+
+        @media screen and (max-width: 999px) {
+            height: 20vh;
+        }
+
+        @media screen and (max-width: 650px) {
+            width: 80vw;
+        }
+
+        @media screen and (max-width: 399px) {
+            height: 30vh;
+        }
 
         h1{
             color: #e9ecef;
@@ -46,11 +64,22 @@ export const Links = styled.div`
     gap: 1.5rem;
 
 
+    @media screen and (max-width: 499px) {
+        flex-direction: row;
+        gap: .5rem;
+    }   
+
+
     svg{
         width: 40px;
         height: 30px;
         color: #4895ef;
 
+        @media screen and (max-width: 499px) {
+            width: 55px;
+            height: 45px;
+        }
+    
         :hover{
             transition: .2s ease-in-out;
             color: #266ab7;
@@ -71,6 +100,15 @@ export const FigureH = styled.figure`
 
     img{
         width: 500px;
+
+        @media screen and (max-width: 650px) {
+            width: 80vw;
+        }
+
+    }
+
+    @media screen and (max-width: 650px) {
+        width: 80vw;
     }
 
  

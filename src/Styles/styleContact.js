@@ -26,6 +26,10 @@ export const Form = styled.form`
     justify-content: center;
     gap: 10px;
 
+    @media screen and (max-width: 650px) {
+        width: 90vw;
+    }
+
     input{
         width: 450px;
         height: 50px;
@@ -35,6 +39,10 @@ export const Form = styled.form`
 
         @media screen and (max-width: 999px) {
             width: 60vw;
+        }
+
+        @media screen and (max-width: 650px) {
+            width: 75vw;
         }
     }
 
@@ -54,6 +62,10 @@ export const Form = styled.form`
             width: 60vw;
         }
 
+        @media screen and (max-width: 650px) {
+            width: 75vw;
+        }
+
         :hover{
             transition: .3s ease-in-out;
             background: #104786;
@@ -69,10 +81,15 @@ export const Form = styled.form`
         border-radius: 5px;
         cursor: pointer;
         resize: none;
+        font-family: Arial;
 
         
         @media screen and (max-width: 999px) {
             width: 60vw;
+        }
+
+        @media screen and (max-width: 650px) {
+            width: 75vw;
         }
     }
 

@@ -15,13 +15,14 @@ export const MainA = styled.main`
     @media screen and (max-width: 999px) {
         flex-direction: column;
         flex-wrap: nowrap;
-        height: 100%;
+        height: 100vh;
+        padding: 2rem 0 2rem 0;
     }
 
 `
 
 export const SectionA = styled.section`
-    p{
+    p{  
         width: 35vw;
         padding: 1rem;
         text-align: justify;
@@ -29,7 +30,16 @@ export const SectionA = styled.section`
         margin-bottom: 1rem;
 
         @media screen and (max-width: 999px) {
-            width: 75vw;
+            width: 70vw;
+        }
+        
+        @media screen and (max-width: 650px) {
+            width: 80vw;
+        }
+
+        @media screen and (max-width: 350px) {
+            font-size: .9rem;
+            margin-bottom: 0;
         }
     }
 
@@ -53,6 +63,16 @@ export const Techs = styled.div`
         justify-content: center;
         gap: 10px;
 
+        @media screen and (max-width: 499px) {
+            width: 40px;
+            height: 40px;
+        }
+
+        @media screen and (max-width: 350px) {
+            width: 30px;
+            height: 30px;
+        }
+
         :hover{
             transition: transform .2s ease-in-out;
             transform: scale(1.2);
@@ -62,7 +82,20 @@ export const Techs = styled.div`
 export const FigureA = styled.figure`
     img{
         border-radius: 50px 5px 50px 5px;
-        width: 350px;
+        width: 300px;
+
+        @media screen and (max-width: 999px) {
+            width: 350px;
+            height: 350px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width: 650px) {
+            width: 50vw;
+            height: 20vh;
+            border-radius: 20px 0 20px 0;
+        }
     }
 
 ` 

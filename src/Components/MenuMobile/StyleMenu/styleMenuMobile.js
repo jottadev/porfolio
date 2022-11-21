@@ -37,7 +37,7 @@ export const DivMenu = styled.div`
 
     svg{
         position: absolute;
-        top: 4.5rem;
+        top: 3.2rem;
         right: 2rem;
         color: #fff;
         cursor: pointer;
